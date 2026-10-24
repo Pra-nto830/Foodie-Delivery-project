@@ -1,0 +1,198 @@
+[
+    {
+        "id": 1,
+        "name": "Chicken Biryani",
+        "price": "$12.99",
+        "image": "images/chicken-biryani.png",
+        "type": "non-veg"
+    },
+    {
+        "id": 2,
+        "name": "Spicy Chicken Burger",
+        "price": "$9.50",
+        "image": "images/beef-burger.png",
+        "type": "non-veg"
+    },
+    {
+        "id": 3,
+        "name": "Grilled Salmon",
+        "price": "$18.75",
+        "image": "images/grilled-salmon.png",
+        "type": "non-veg"
+    },
+    {
+        "id": 4,
+        "name": "Butter Chicken",
+        "price": "$14.99",
+        "image": "images/butter-chicken.png",
+        "type": "non-veg"
+    },
+    {
+        "id": 5,
+        "name": "Paneer Tikka Masala",
+        "price": "$11.99",
+        "image": "images/paneer-tikka.png",
+        "type": "veg"
+    },
+    {
+        "id": 6,
+        "name": "Veggie Pizza",
+        "price": "$10.99",
+        "image": "images/veggie-pizza.png",
+        "type": "veg"
+    },
+    {
+        "id": 7,
+        "name": "Dal Makhani",
+        "price": "$8.99",
+        "image": "images/dal-makhani.png",
+        "type": "veg"
+    },
+    {
+        "id": 8,
+        "name": "Tofu Stir Fry",
+        "price": "$13.50",
+        "image": "images/tofu-stir-fry.png",
+        "type": "veg"
+    },
+    {
+        "id": 9,
+        "name": "Spinach and Feta Rolls",
+        "price": "$8.99",
+        "image": "images/veg_item_9.png",
+        "type": "veg"
+    },
+    {
+        "id": 10,
+        "name": "Mushroom and Asparagus Risotto",
+        "price": "$9.49",
+        "image": "images/veg_item_10.png",
+        "type": "veg"
+    },
+    {
+        "id": 11,
+        "name": "Tofu Scramble with Bell Peppers",
+        "price": "$9.99",
+        "image": "images/veg_item_11.png",
+        "type": "veg"
+    },
+    {
+        "id": 12,
+        "name": "Black Bean Burgers",
+        "price": "$10.49",
+        "image": "images/veg_item_12.png",
+        "type": "veg"
+    },
+    {
+        "id": 13,
+        "name": "Sweet Potato Fries",
+        "price": "$10.99",
+        "image": "images/veg_item_13.png",
+        "type": "veg"
+    },
+    {
+        "id": 14,
+        "name": "Quinoa Salad with Roasted Vegetables",
+        "price": "$11.49",
+        "image": "images/veg_item_14.png",
+        "type": "veg"
+    },
+    {
+        "id": 15,
+        "name": "Vegetarian Chili",
+        "price": "$11.99",
+        "image": "images/veg_item_15.png",
+        "type": "veg"
+    },
+    {
+        "id": 16,
+        "name": "Lentil Soup",
+        "price": "$12.49",
+        "image": "images/veg_item_16.png",
+        "type": "veg"
+    },
+    {
+        "id": 17,
+        "name": "Broccoli Cheddar Soup",
+        "price": "$12.99",
+        "image": "images/veg_item_17.png",
+        "type": "veg"
+    },
+    {
+        "id": 18,
+        "name": "Eggplant Parmesan",
+        "price": "$13.49",
+        "image": "images/veg_item_18.png",
+        "type": "veg"
+    },
+    {
+        "id": 19,
+        "name": "Vegetable Korma",
+        "price": "$13.99",
+        "image": "images/veg_item_19.png",
+        "type": "veg"
+    },
+    {
+        "id": 20,
+        "name": "Aloo Gobi",
+        "price": "$14.49",
+        "image": "images/veg_item_20.png",
+        "type": "veg"
+    },
+    {
+        "id": 21,
+        "name": "Chana Masala",
+        "price": "$14.99",
+        "image": "images/veg_item_21.png",
+        "type": "veg"
+    },
+    {
+        "id": 22,
+        "name": "Palak Paneer",
+        "price": "$15.49",
+        "image": "images/veg_item_22.png",
+        "type": "veg"
+    },
+    {
+        "id": 23,
+        "name": "Veggie Spring Rolls",
+        "price": "$15.99",
+        "image": "images/veg_item_23.png",
+        "type": "veg"
+    },
+    {
+        "id": 24,
+        "name": "Caprese Skewers",
+        "price": "$16.49",
+        "image": "images/veg_item_24.png",
+        "type": "veg"
+    },
+    {
+        "id": 25,
+        "name": "Hummus and Pita Plate",
+        "price": "$16.99",
+        "image": "images/veg_item_25.png",
+        "type": "veg"
+    },
+    {
+        "id": 26,
+        "name": "Falafel Wrap",
+        "price": "$17.49",
+        "image": "images/veg_item_26.png",
+        "type": "veg"
+    },
+    {
+        "id": 27,
+        "name": "Greek Salad",
+        "price": "$17.99",
+        "image": "images/veg_item_27.png",
+        "type": "veg"
+    },
+    {
+        "id": 28,
+        "name": "Cauliflower Wings",
+        "price": "$18.49",
+        "image": "images/veg_item_28.png",
+        "type": "veg"
+    }
+]

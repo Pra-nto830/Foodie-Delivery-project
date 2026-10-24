@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>YumYard Admin Panel</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<div id="snow-container"></div>
+
+<div class="auth-container" id="loginBox">
+  <div class="auth-visual">
+    <div class="visual-overlay">
+      <h1>YumYard</h1>
+      <p>Manage your gourmet kingdom with elegance.</p>
+    </div>
+  </div>
+
+  <div class="auth-form-section">
+    <div class="login-box-premium">
+      <h2>Admin Portal</h2>
+      <div class="input-group">
+        <input id="email" type="email" required>
+        <label>Email Address</label>
+      </div>
+      <div class="input-group">
+        <input id="password" type="password" required>
+        <label>Password</label>
+      </div>
+      <button class="btn-premium btn-edit" onclick="login()" style="width:100%; margin-top:10px;">Login to Dashboard</button>
+      <p id="loginError" style="color:red; font-size:12px; margin-top:10px;"></p>
+    </div>
+  </div>
+</div>
+
+<div class="dashboard hidden" id="dashboard">
+  <aside class="side-nav">
+    <div class="brand">
+      <h1>YumYard</h1>
+      <span>Admin Suite</span>
+    </div>
+    <nav>
+      <a href="#" class="nav-link active"><i class="fas fa-chart-line"></i> Overview</a>
+      <a href="#" class="nav-link"><i class="fas fa-utensils"></i> Inventory</a>
+      <a href="#" class="nav-link"><i class="fas fa-shopping-cart"></i> Orders</a>
+    </nav>
+    <button class="btn-premium btn-logout" onclick="logout()">
+      <i class="fas fa-sign-out-alt"></i> Logout
+    </button>
+  </aside>
+
+  <main class="main-content">
+    <header class="content-header">
+      <h2>Welcome Back, Admin</h2>
+      <div class="header-stats">
+        <div class="stat-pill">System Online</div>
+      </div>
+    </header>
+
+    <div class="section-card glass-card">
+      <div class="card-header">
+        <h3><i class="fas fa-history"></i> Order Management</h3>
+        <div id="clearHistoryContainer"></div>
+      </div>
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Items</th>
+              <th>Total</th>
+              <th>Payment</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="orderTable"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="section-card glass-card">
+      <h3><i class="fas fa-plus-circle"></i> Inventory Control</h3>
+
+<div class="admin-search-container" style="margin: 20px 0;">
+    <div class="input-group-premium">
+        <i class="fas fa-search"></i>
+        <input type="text" id="adminProductSearch" placeholder="Search inventory by name..." oninput="filterAdminProducts()" style="width: 100%; padding: 12px 12px 12px 45px; border-radius: 12px; border: 1px solid #e2e8f0;">
+    </div>
+</div>
+
+      <div class="product-form-premium">
+        <input id="name" placeholder="Food Item Name">
+        <input id="price" placeholder="Price (e.g. 12.50)">
+        <input id="image" placeholder="Image URL Path">
+        <select id="type">
+          <option value="veg">Vegetarian</option>
+          <option value="non-veg">Non-Vegetarian</option>
+        </select>
+        <button class="btn-premium btn-edit" onclick="saveProduct()">Save Item</button>
+      </div>
+
+      <h3 style="margin-top:30px;"><i class="fas fa-list"></i> Current Menu</h3>
+      <div id="productList" class="grid-menu"></div>
+    </div>
+  </main>
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>
